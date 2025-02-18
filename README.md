@@ -4,6 +4,10 @@ This demo aims to showcase how the [Semantic Kernel Process Framework](https://l
 
 In this demo, I have defined the agents as external services, and each step will call these agents using HTTP requests. This setup allows .NET Aspire to add value by tracing the process using OpenTelemetry. Additionally, since each agent is a service, they can be restarted as needed using the .NET Aspire developer dashboard.
 
+## Architecture
+
+The business logic of this sample is pretty simple: we want to define a process that will transalte some text in English and will then summarize it.
+
 ![Architecture Diagram](./docs/architecture.png)
 
 ## Running with .NET Aspire
