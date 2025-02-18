@@ -6,7 +6,7 @@ In this demo, I have defined the agents as external services, and each step will
 
 ## Architecture
 
-The business logic of this sample is pretty simple: we want to define a process that will transalte some text in English and will then summarize it.
+The business logic of this sample is pretty simple: we want to define a process that will translate some text in English and will then summarize it.
 
 ![Architecture Diagram](./docs/architecture.png)
 
